@@ -95,6 +95,7 @@ class Fetchinfo{
 			cout<<"function jansson_destruct OK"<<endl;
 		}
 };
+
 int main(){
 	Fetchinfo FI;
 		FI.URL="http://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=c714b89eb55d5fb6aa02928515b53b84";
